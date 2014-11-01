@@ -19,8 +19,8 @@ public class ServletExamen extends HttpServlet {
         despachador.forward(request, response);
      
         evaluacion a=new evaluacion();
-        a.setNombre("Ana");
-        a.setCalificacion(7);
+        a.setNombre("sandra");
+        a.setCalificacion(8);
         
     }
  }

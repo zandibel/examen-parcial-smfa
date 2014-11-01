@@ -11,8 +11,8 @@ public class TestExamen {
                 
     AnnotationConfigApplicationContext(ServletExamen.class);
      evaluacion a=cts.getBean(evaluacion.class);
-     a.setNombre("Ana");
-     a.setCalificacion(7);
+     a.setNombre("sandra");
+     a.setCalificacion(8);
      System.out.println(a.getCalificacion());
         System.out.println(a.getNombre());
     
